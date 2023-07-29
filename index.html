@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guessing</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="box">
+      <div class="inner-box">
+        <h1 class="heading">Wanna Play game?</h1>
+        <input
+          class="input"
+          type="text"
+          style="display: block"
+          placeholder="What is your name?"
+        />
+        <br />
+        <button class="btn">Start Game</button>
+        <p class="error none">Please write your name</p>
+
+        <input class="input-one none" type="text" placeholder="Give a number" />
+        <br />
+        <button class="btn-one none">Let’s Play</button>
+        <p class="error-one none"></p>
+
+        <input
+          class="input-two none"
+          type="text"
+          placeholder="Guess a number"
+        />
+        <br />
+        <button class="btn-two none">Guess a number</button>
+        <p class="error-two none">
+          Please try again. left <span class="left"></span>
+        </p>
+
+        <button class="btn refreshButton none">Play Again</button>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
