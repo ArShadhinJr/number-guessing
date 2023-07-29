@@ -7,7 +7,7 @@
 .box {
   display: flex;
   justify-content: center;
-  margin-top: 335px;
+  margin-top: 150px;
 }
 .inner-box {
   text-align: center;
@@ -70,7 +70,7 @@ p {
 
 @media (max-width: 700px) {
   .box {
-    margin-top: 150px;
+    margin-top: 80px;
   }
   h1 {
     font-size: 20px;
